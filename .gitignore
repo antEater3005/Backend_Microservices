@@ -1,0 +1,12 @@
+shopping/node_modules
+customers/node_modules
+products/node_modules
+
+shopping/.env
+shopping/.env.dev
+customers/.env
+customers/.env.dev
+products/.env
+products/.env.dev
+
+MicroService.code-workspace
