@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');
+const bcryptjs = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const amqplib = require('amqplib');
 
@@ -12,11 +12,11 @@ const {
 
 //Utility functions
 module.exports.GenerateSalt = async () => {
-  return await bcrypt.genSalt();
+  return await bcryptjs.genSalt();
 };
 
 module.exports.GeneratePassword = async (password, salt) => {
-  return await bcrypt.hash(password, salt);
+  return await bcryptjs.hash(password, salt);
 };
 
 module.exports.ValidatePassword = async (
