@@ -9,8 +9,8 @@ module.exports = async () => {
     });
     console.log('DataBase Connected');
   } catch (error) {
-    console.log('Error ============  ', DB_URL);
+    console.log('Error ============');
     console.log(error);
     process.exit(1);
-  }
+  } 
 };
