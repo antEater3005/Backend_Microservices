@@ -2,12 +2,13 @@ shopping/node_modules
 customers/node_modules
 products/node_modules
 
-shopping/.env
+# shopping/.env
 shopping/.env.dev
-customers/.env
+# customers/.env
 customers/.env.dev
-products/.env
+# products/.env
 products/.env.dev
 
 MicroService.code-workspace
-docker-compose.yaml
+# docker-compose.yaml
+online_shopping_backend_microservices.zip
